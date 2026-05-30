@@ -1,0 +1,32 @@
+@server = http://localhost:4004
+@service = {{server}}/service/prm/greetUser
+
+
+POST {{service}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "Name": "John Doe",
+  "Status": "Prospect",
+  "address": {
+    "Street": "12 MG Road",
+    "City": "Bangalore",
+    "State": "Karnataka",
+    "PostalCode": "560001",
+    "Country": "India"
+  },
+  "contacts": [
+    {
+      "FirstName": "Rajesh",
+      "LastName": "Kumar",
+      "Email": "rajesh.kumar@abctech.com"
+    },
+    {
+      "FirstName": "Priya",
+      "LastName": "Sharma",
+      "Email": "priya.sharma@abctech.com"
+    }
+  ]
+}
+

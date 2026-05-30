@@ -1,0 +1,33 @@
+### Deep Insert directly to Partners
+### Service Metadata
+
+
+
+
+POST http://localhost:4004/service/prm/submitPartner
+Content-Type: application/json
+Accept: application/json
+
+{
+  "Name": "ABC Technologies Pvt Ltd",
+  "Status": "Prospect",
+  "address": {
+    "Street": "12 MG Road",
+    "City": "Bangalore",
+    "State": "Karnataka",
+    "PostalCode": "560001",
+    "Country": "India"
+  },
+  "contacts": [
+    {
+      "FirstName": "Rajesh",
+      "LastName": "Kumar",
+      "Email": "rajesh.kumar@abctech.com"
+    },
+    {
+      "FirstName": "Priya",
+      "LastName": "Sharma",
+      "Email": "priya.sharma@abctech.com"
+    }
+  ]
+}

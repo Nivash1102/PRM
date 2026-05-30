@@ -1,0 +1,1833 @@
+#2026 05 26 13:23:26.649#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Operation ID: 14103bc2-5906-11f1-be41-eeee0a8b59e3#
+#2026 05 26 13:23:26.774#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.45.0",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 05 26 13:23:26.774#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Current user: nivash.s@gmail.com#
+#2026 05 26 13:23:26.774#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Client space: dev#
+#2026 05 26 13:23:26.774#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Client organization: b29e4e42trial#
+#2026 05 26 13:23:26.774#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#http-nio-0.0.0.0-8080-exec-2#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "PartnerRelationshipManagement",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.us10-001.hana.ondemand.com/api/v1/spaces/71fc0cf5-82f9-4a84-8127-69065f025ac4/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "3a35262c-f2eb-4392-88ae-9ca510981485",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : true
+}#
+#2026 05 26 13:23:27.048#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:27.048#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 05 26 13:23:27.067#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Size of mtars is 9,632,512 and size of extension descriptors is 0#
+#2026 05 26 13:23:27.326#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 9,632,512#
+#2026 05 26 13:23:27.326#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Deploying in org "b29e4e42trial" and space "dev"#
+#2026 05 26 13:23:27.363#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 05 26 13:23:27.363#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+Step "Validate Parameters" finished#
+#2026 05 26 13:23:27.609#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:27.622#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+Step "Delete Remaining File Parts" finished#
+#2026 05 26 13:23:27.699#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:27.700#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 05 26 13:23:27.700#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: 3a35262c-f2eb-4392-88ae-9ca510981485#
+#2026 05 26 13:23:28.137#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 1,369#
+#2026 05 26 13:23:28.137#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:28.137#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 05 26 13:23:28.137#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [PartnerRelationshipManagement-auth]#
+#2026 05 26 13:23:28.149#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 05 26 13:23:28.149#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+Step "Process Archive" finished#
+#2026 05 26 13:23:28.203#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.204#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 05 26 13:23:28.205#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 05 26 13:23:28.205#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 05 26 13:23:28.205#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 05 26 13:23:28.205#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+Step "Process Extension Descriptors" finished#
+#2026 05 26 13:23:28.251#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.252#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 05 26 13:23:28.254#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 05 26 13:23:28.260#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+Step "Detect Schema Version" finished#
+#2026 05 26 13:23:28.316#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.318#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 05 26 13:23:28.320#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "PartnerRelationshipManagement",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-srv",
+    "type" : "javascript.nodejs",
+    "path" : "PartnerRelationshipManagement-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "instances" : 1
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "PartnerRelationshipManagement-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "buildpack" : "nodejs_buildpack",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "PartnerRelationshipManagement-${org}-${space}"
+      },
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "type" : "managed-service",
+      "service" : "hana",
+      "service-plan" : "hdi-shared"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 05 26 13:23:28.321#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 05 26 13:23:28.321#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5126#
+Step "Merge Descriptors" finished#
+#2026 05 26 13:23:28.375#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.376#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 05 26 13:23:28.444#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Detecting MTA by id PartnerRelationshipManagement and namespace null#
+#2026 05 26 13:23:28.444#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=93548af7c10add886bf3f399040cf054,!mta_namespace"...#
+#2026 05 26 13:23:28.511#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=93548af7c10add886bf3f399040cf054,!mta_namespace"...#
+#2026 05 26 13:23:28.610#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "PartnerRelationshipManagement",
+    "version" : "1.0.0"
+  },
+  "applications" : [ {
+    "name" : "PartnerRelationshipManagement-srv",
+    "metadata" : {
+      "guid" : "f7419900-66e9-4b8b-80f3-f99201d79fd2",
+      "createdAt" : [ 2026, 5, 26, 12, 3, 20 ],
+      "updatedAt" : [ 2026, 5, 26, 13, 7, 12 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "PartnerRelationshipManagement",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"PartnerRelationshipManagement-srv\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "********"
+      },
+      "labels" : {
+        "mta_id" : "93548af7c10add886bf3f399040cf054"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "dev",
+      "metadata" : {
+        "guid" : "71fc0cf5-82f9-4a84-8127-69065f025ac4",
+        "createdAt" : [ 2026, 5, 17, 12, 59, 54 ],
+        "updatedAt" : [ 2026, 5, 17, 12, 59, 54 ]
+      },
+      "organization" : {
+        "name" : "b29e4e42trial",
+        "metadata" : {
+          "guid" : "25ea4d2d-781d-47e9-9309-236933205a72",
+          "createdAt" : [ 2026, 5, 17, 12, 59, 52 ],
+          "updatedAt" : [ 2026, 5, 17, 12, 59, 54 ]
+        }
+      }
+    },
+    "moduleName" : "PartnerRelationshipManagement-srv",
+    "boundMtaServices" : [ "********", "PartnerRelationshipManagement-db" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  }, {
+    "name" : "PartnerRelationshipManagement-db-deployer",
+    "metadata" : {
+      "guid" : "d31fcc35-fb7f-4c15-a285-f53f19caf57e",
+      "createdAt" : [ 2026, 5, 26, 12, 3, 23 ],
+      "updatedAt" : [ 2026, 5, 26, 13, 7, 10 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "PartnerRelationshipManagement",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"PartnerRelationshipManagement-db-deployer\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "[\"PartnerRelationshipManagement-db\"]"
+      },
+      "labels" : {
+        "mta_id" : "93548af7c10add886bf3f399040cf054"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "dev",
+      "metadata" : {
+        "guid" : "71fc0cf5-82f9-4a84-8127-69065f025ac4",
+        "createdAt" : [ 2026, 5, 17, 12, 59, 54 ],
+        "updatedAt" : [ 2026, 5, 17, 12, 59, 54 ]
+      },
+      "organization" : {
+        "name" : "b29e4e42trial",
+        "metadata" : {
+          "guid" : "25ea4d2d-781d-47e9-9309-236933205a72",
+          "createdAt" : [ 2026, 5, 17, 12, 59, 52 ],
+          "updatedAt" : [ 2026, 5, 17, 12, 59, 54 ]
+        }
+      }
+    },
+    "moduleName" : "PartnerRelationshipManagement-db-deployer",
+    "boundMtaServices" : [ "PartnerRelationshipManagement-db" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  } ],
+  "services" : [ {
+    "name" : "********",
+    "metadata" : {
+      "guid" : "6e5ea8fc-44aa-4f9c-997c-335acec99e48",
+      "createdAt" : [ 2026, 5, 26, 12, 1, 40 ],
+      "updatedAt" : [ 2026, 5, 26, 12, 1, 40 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "PartnerRelationshipManagement",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "********"
+      },
+      "labels" : {
+        "mta_id" : "93548af7c10add886bf3f399040cf054"
+      }
+    },
+    "label" : "xsuaa",
+    "plan" : "application",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "UPDATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "********"
+  }, {
+    "name" : "PartnerRelationshipManagement-db",
+    "metadata" : {
+      "guid" : "6168a040-2d82-4a70-ac03-9b34372b8593",
+      "createdAt" : [ 2026, 5, 26, 12, 2, 21 ],
+      "updatedAt" : [ 2026, 5, 26, 12, 2, 22 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "PartnerRelationshipManagement",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+      },
+      "labels" : {
+        "mta_id" : "93548af7c10add886bf3f399040cf054"
+      }
+    },
+    "label" : "hana",
+    "plan" : "hdi-shared",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+      "state" : "FAILED"
+    },
+    "resourceName" : "PartnerRelationshipManagement-db"
+  } ]
+}#
+#2026 05 26 13:23:28.610#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "PartnerRelationshipManagement" and version "1.0.0"#
+#2026 05 26 13:23:28.619#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Detecting backup mta by id "PartnerRelationshipManagement" and namespace "null"#
+#2026 05 26 13:23:28.619#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=93548af7c10add886bf3f399040cf054,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 05 26 13:23:28.655#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=93548af7c10add886bf3f399040cf054,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 05 26 13:23:28.710#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 05 26 13:23:28.710#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+Step "Detect Deployed MTA" finished#
+#2026 05 26 13:23:28.760#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.761#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 05 26 13:23:28.763#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 05 26 13:23:28.793#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2026 05 26 13:23:28.793#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "PartnerRelationshipManagement"#
+#2026 05 26 13:23:28.793#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 05 26 13:23:28.818#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "PartnerRelationshipManagement",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-srv",
+    "type" : "javascript.nodejs",
+    "path" : "PartnerRelationshipManagement-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PartnerRelationshipManagement-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "PartnerRelationshipManagement-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "PartnerRelationshipManagement-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "PartnerRelationshipManagement-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "PartnerRelationshipManagement-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "PartnerRelationshipManagement-${org}-${space}"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "PartnerRelationshipManagement-db",
+      "type" : "managed-service",
+      "default-service-name" : "PartnerRelationshipManagement-db",
+      "default-container-name" : "B29E4E42TRIAL_DEV_PARTNERRELATIONSHIPMANAGEMENT_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "PartnerRelationshipManagement",
+    "authorization-url" : "********",
+    "org-guid" : "25ea4d2d-781d-47e9-9309-236933205a72",
+    "org" : "b29e4e42trial",
+    "deploy-target" : "b29e4e42trial dev",
+    "enable-parallel-deployments" : true,
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "71fc0cf5-82f9-4a84-8127-69065f025ac4",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260526132326"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 05 26 13:23:28.819#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 05 26 13:23:28.820#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 05 26 13:23:28.826#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] Deployed MTA version: "1.0.0"#
+#2026 05 26 13:23:28.835#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 05 26 13:23:28.835#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 05 26 13:23:28.835#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+Step "Collect System Parameters" finished#
+#2026 05 26 13:23:28.887#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.889#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 05 26 13:23:28.894#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 05 26 13:23:28.895#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] MTA modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:28.895#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "PartnerRelationshipManagement",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-srv",
+    "type" : "javascript.nodejs",
+    "path" : "PartnerRelationshipManagement-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "PartnerRelationshipManagement-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+      "app-name" : "PartnerRelationshipManagement-srv",
+      "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "PartnerRelationshipManagement-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "PartnerRelationshipManagement-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "PartnerRelationshipManagement-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+      "app-name" : "PartnerRelationshipManagement-db-deployer",
+      "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "PartnerRelationshipManagement-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "PartnerRelationshipManagement-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "oauth2-configuration" : "********",
+        "tenant-mode" : "dedicated",
+        "xsappname" : "PartnerRelationshipManagement-b29e4e42trial-dev"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db",
+    "type" : "com.sap.xs.hdi-container",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "PartnerRelationshipManagement-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "PartnerRelationshipManagement-db",
+      "type" : "managed-service",
+      "default-service-name" : "PartnerRelationshipManagement-db",
+      "default-container-name" : "B29E4E42TRIAL_DEV_PARTNERRELATIONSHIPMANAGEMENT_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "PartnerRelationshipManagement",
+    "authorization-url" : "********",
+    "org-guid" : "25ea4d2d-781d-47e9-9309-236933205a72",
+    "org" : "b29e4e42trial",
+    "deploy-target" : "b29e4e42trial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "71fc0cf5-82f9-4a84-8127-69065f025ac4",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260526132326"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 05 26 13:23:28.895#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 05 26 13:23:28.895#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+Step "Process Descriptor Step" finished#
+#2026 05 26 13:23:28.945#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:28.950#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 05 26 13:23:28.950#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 05 26 13:23:28.953#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:28.953#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Deployed modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:28.954#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] MTA modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:28.954#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "PartnerRelationshipManagement-db" : [ ],
+  "PartnerRelationshipManagement-auth" : "********"
+}#
+#2026 05 26 13:23:28.955#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "PartnerRelationshipManagement-srv",
+  "type" : "javascript.nodejs",
+  "path" : "PartnerRelationshipManagement-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "PartnerRelationshipManagement-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+    "app-name" : "PartnerRelationshipManagement-srv",
+    "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "PartnerRelationshipManagement-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "b29e4e42trial-dev-partnerrelationshipmanagement-srv",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "PartnerRelationshipManagement-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "PartnerRelationshipManagement-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "PartnerRelationshipManagement-db-deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+    "app-name" : "PartnerRelationshipManagement-db-deployer",
+    "default-live-uri" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "PartnerRelationshipManagement-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "b29e4e42trial-dev-partnerrelationshipmanagement-db-deployer",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "PartnerRelationshipManagement-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 05 26 13:23:28.955#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 05 26 13:23:28.957#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 05 26 13:23:28.958#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 05 26 13:23:28.958#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 05 26 13:23:28.958#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5128#
+Step "Build Deploy Model" finished#
+#2026 05 26 13:23:29.013#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.015#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 05 26 13:23:29.019#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 05 26 13:23:29.020#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 05 26 13:23:29.020#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 05 26 13:23:29.029#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] MTA modules: [PartnerRelationshipManagement-db-deployer, PartnerRelationshipManagement-srv]#
+#2026 05 26 13:23:29.029#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2026 05 26 13:23:29.029#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2026 05 26 13:23:29.030#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2026 05 26 13:23:29.033#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2026 05 26 13:23:29.033#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2026 05 26 13:23:29.037#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2026 05 26 13:23:29.037#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+Step "Build Undeploy Model" finished#
+#2026 05 26 13:23:29.100#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[AddDomainsStep] Executing task "addDomainsTask" of process "14103be8-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.103#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+[AddDomainsStep] Custom domains: []#
+#2026 05 26 13:23:29.103#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5127#
+Step "Add Domains" finished#
+#2026 05 26 13:23:29.327#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "159ad416-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.329#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2026 05 26 13:23:29.331#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "********",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "********",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "PartnerRelationshipManagement-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "PartnerRelationshipManagement-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2026 05 26 13:23:29.333#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2026 05 26 13:23:29.481#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.482#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[CheckServiceOperationStateStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:29.577#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+Step "Check for service operations in Progress" finished#
+#2026 05 26 13:23:29.622#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.625#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:29.632#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:29.734#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "PartnerRelationshipManagement-db",
+  "metadata" : {
+    "guid" : "6168a040-2d82-4a70-ac03-9b34372b8593",
+    "createdAt" : [ 2026, 5, 26, 12, 2, 21 ],
+    "updatedAt" : [ 2026, 5, 26, 12, 2, 22 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+    "state" : "FAILED"
+  }
+}#
+#2026 05 26 13:23:29.734#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be recreated#
+#2026 05 26 13:23:29.735#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5125#
+Step "Determine update actions" finished#
+#2026 05 26 13:23:29.895#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Executing task "determineServiceDeleteActionsToExecuteStep" of process "15f1a699-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:29.896#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Determining delete actions for service instance "PartnerRelationshipManagement-db"#
+#2026 05 26 13:23:29.898#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.026#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Getting bindings of service instance "6168a040-2d82-4a70-ac03-9b34372b8593"...#
+#2026 05 26 13:23:30.061#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Getting service keys for service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.098#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Will delete service bindings, service keys and service instance "PartnerRelationshipManagement-db"#
+#2026 05 26 13:23:30.099#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Existing service bindings "[ ]"#
+#2026 05 26 13:23:30.099#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+[DetermineServiceDeleteActionsToExecuteStep] Existing service keys "[ ]"#
+#2026 05 26 13:23:30.099#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5124#
+Step "Determine Service Delete Actions To Execute" finished#
+#2026 05 26 13:23:30.169#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Executing task "deleteServiceWithPolling" of process "16207deb-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:30.172#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Deleting discontinued service "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.173#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.293#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Deleting service "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.300#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Deleting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:30.349#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+[DeleteServiceStep] Service "PartnerRelationshipManagement-db" deleted#
+#2026 05 26 13:23:30.349#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5123#
+Step "Delete service with polling" finished#
+#2026 05 26 13:23:31.614#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "16fe8240-5906-11f1-b2f8-eeee0a873ce4"...#
+#2026 05 26 13:23:31.615#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[CheckServiceOperationStateStep] Getting service instance "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:31.713#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+Step "Check for service operations in Progress" finished#
+#2026 05 26 13:23:31.752#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "16fe8240-5906-11f1-b2f8-eeee0a873ce4"...#
+#2026 05 26 13:23:31.756#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:31.762#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:31.856#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "PartnerRelationshipManagement-auth" parameters from "xs-security.json"#
+#2026 05 26 13:23:31.893#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "********",
+  "metadata" : {
+    "guid" : "6e5ea8fc-44aa-4f9c-997c-335acec99e48",
+    "createdAt" : [ 2026, 5, 26, 12, 1, 40 ],
+    "updatedAt" : [ 2026, 5, 26, 12, 1, 40 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "UPDATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2026 05 26 13:23:31.893#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2026 05 26 13:23:31.893#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "attributes" : [ ],
+  "authorities-inheritance" : "********",
+  "oauth2-configuration" : "********",
+  "role-templates" : [ ],
+  "scopes" : [ ],
+  "tenant-mode" : "dedicated",
+  "xsappname" : "PartnerRelationshipManagement-b29e4e42trial-dev"
+}#
+#2026 05 26 13:23:31.893#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+Step "Determine update actions" finished#
+#2026 05 26 13:23:31.950#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "16fe8240-5906-11f1-b2f8-eeee0a873ce4"...#
+#2026 05 26 13:23:31.952#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+Step "Check for service binding or key creation" finished#
+#2026 05 26 13:23:32.000#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "16fe8240-5906-11f1-b2f8-eeee0a873ce4"...#
+#2026 05 26 13:23:32.003#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[UpdateServiceParametersStep] Updating service "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:32.010#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[UpdateServiceParametersStep] Updating service parameters for service "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:32.113#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[UpdateServiceParametersStep] Service "PartnerRelationshipManagement-auth" updated#
+#2026 05 26 13:23:32.113#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "PartnerRelationshipManagement-auth" : "UPDATE"
+}#
+#2026 05 26 13:23:32.115#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5068#
+Step "Update parameters" finished#
+#2026 05 26 13:23:39.580#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Executing task "deleteServiceWithPolling" of process "16207deb-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:39.581#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Polling service operations...#
+#2026 05 26 13:23:39.647#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:39.691#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Getting events by actee "6168a040-2d82-4a70-ac03-9b34372b8593"...#
+#2026 05 26 13:23:39.725#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Last operation for service "PartnerRelationshipManagement-db": {
+  "type" : "DELETE",
+  "description" : "DELETE",
+  "state" : "SUCCEEDED"
+}#
+#2026 05 26 13:23:39.725#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Service "PartnerRelationshipManagement-db" deleted#
+#2026 05 26 13:23:39.725#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] 1 of 1 done#
+#2026 05 26 13:23:39.731#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+[DeleteServiceStep] Remaining services to poll: [ ]#
+#2026 05 26 13:23:39.732#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5274#
+Step "Delete service with polling" finished#
+#2026 05 26 13:23:39.583#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "16fe8240-5906-11f1-b2f8-eeee0a873ce4"...#
+#2026 05 26 13:23:39.585#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Polling service operations...#
+#2026 05 26 13:23:39.647#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Getting service instance "PartnerRelationshipManagement-auth"...#
+#2026 05 26 13:23:39.760#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Last operation for service "PartnerRelationshipManagement-auth": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2026 05 26 13:23:39.760#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Service "PartnerRelationshipManagement-auth" updated#
+#2026 05 26 13:23:39.760#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2026 05 26 13:23:39.766#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2026 05 26 13:23:39.768#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5275#
+Step "Update parameters" finished#
+#2026 05 26 13:23:39.813#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:39.815#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+[CreateServiceStep] Creating service "PartnerRelationshipManagement-db" from MTA resource "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:39.820#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "PartnerRelationshipManagement-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "PartnerRelationshipManagement-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 05 26 13:23:40.009#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+[CreateServiceStep] Service "PartnerRelationshipManagement-db" created#
+#2026 05 26 13:23:40.009#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+[CreateServiceStep] Triggered service operations: {
+  "PartnerRelationshipManagement-db" : "CREATE"
+}#
+#2026 05 26 13:23:40.010#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5273#
+Step "Create" finished#
+#2026 05 26 13:23:49.681#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:49.682#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+[CreateServiceStep] Polling service operations...#
+#2026 05 26 13:23:49.685#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+[CreateServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:49.784#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+[CreateServiceStep] Last operation for service "PartnerRelationshipManagement-db": {
+  "type" : "CREATE",
+  "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+  "state" : "FAILED"
+}#
+#2026 05 26 13:23:49.785#Z#ERROR#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:156)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:82)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:72)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:72)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:96)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:78)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:59)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25)
+	... 33 more
+#2026 05 26 13:23:49.792#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5283#
+Step "Create" finished#
+#2026 05 26 13:23:51.475#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:51.479#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+[CreateServiceStep] Creating service "PartnerRelationshipManagement-db" from MTA resource "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:51.500#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "PartnerRelationshipManagement-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "PartnerRelationshipManagement-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 05 26 13:23:51.729#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+[CreateServiceStep] Service "PartnerRelationshipManagement-db" created#
+#2026 05 26 13:23:51.729#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+[CreateServiceStep] Triggered service operations: {
+  "PartnerRelationshipManagement-db" : "CREATE"
+}#
+#2026 05 26 13:23:51.750#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5139#
+Step "Create" finished#
+#2026 05 26 13:23:59.724#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:23:59.725#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+[CreateServiceStep] Polling service operations...#
+#2026 05 26 13:23:59.786#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+[CreateServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:23:59.897#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+[CreateServiceStep] Last operation for service "PartnerRelationshipManagement-db": {
+  "type" : "CREATE",
+  "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+  "state" : "FAILED"
+}#
+#2026 05 26 13:23:59.898#Z#ERROR#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:156)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:82)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:72)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:72)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:96)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:78)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:59)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25)
+	... 33 more
+#2026 05 26 13:23:59.906#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5288#
+Step "Create" finished#
+#2026 05 26 13:24:00.747#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:24:00.752#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+[CreateServiceStep] Creating service "PartnerRelationshipManagement-db" from MTA resource "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:24:00.759#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "PartnerRelationshipManagement-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "PartnerRelationshipManagement-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 05 26 13:24:00.959#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+[CreateServiceStep] Service "PartnerRelationshipManagement-db" created#
+#2026 05 26 13:24:00.959#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+[CreateServiceStep] Triggered service operations: {
+  "PartnerRelationshipManagement-db" : "CREATE"
+}#
+#2026 05 26 13:24:00.966#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5142#
+Step "Create" finished#
+#2026 05 26 13:24:09.816#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:24:09.818#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+[CreateServiceStep] Polling service operations...#
+#2026 05 26 13:24:09.881#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+[CreateServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:24:10.001#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+[CreateServiceStep] Last operation for service "PartnerRelationshipManagement-db": {
+  "type" : "CREATE",
+  "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+  "state" : "FAILED"
+}#
+#2026 05 26 13:24:10.001#Z#ERROR#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:156)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:82)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:72)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:72)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:96)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:78)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:59)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25)
+	... 33 more
+#2026 05 26 13:24:10.008#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5295#
+Step "Create" finished#
+#2026 05 26 13:24:13.061#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:24:13.067#Z#INFO#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+[CreateServiceStep] Creating service "PartnerRelationshipManagement-db" from MTA resource "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:24:13.074#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "PartnerRelationshipManagement-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "PartnerRelationshipManagement",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"PartnerRelationshipManagement-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "93548af7c10add886bf3f399040cf054"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "PartnerRelationshipManagement-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2026 05 26 13:24:13.297#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+[CreateServiceStep] Service "PartnerRelationshipManagement-db" created#
+#2026 05 26 13:24:13.297#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+[CreateServiceStep] Triggered service operations: {
+  "PartnerRelationshipManagement-db" : "CREATE"
+}#
+#2026 05 26 13:24:13.303#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5155#
+Step "Create" finished#
+#2026 05 26 13:24:19.996#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "15b58756-5906-11f1-be41-eeee0a8b59e3"...#
+#2026 05 26 13:24:20.001#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+[CreateServiceStep] Polling service operations...#
+#2026 05 26 13:24:20.014#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+[CreateServiceStep] Getting service instance "PartnerRelationshipManagement-db"...#
+#2026 05 26 13:24:20.132#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+[CreateServiceStep] Last operation for service "PartnerRelationshipManagement-db": {
+  "type" : "CREATE",
+  "description" : "Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped",
+  "state" : "FAILED"
+}#
+#2026 05 26 13:24:20.133#Z#ERROR#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:156)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:82)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:72)
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14)
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:72)
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35)
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32)
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26)
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:177)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125)
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:198)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:189)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:128)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:80)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.handleTransactionalJob(ExecuteAsyncRunnable.java:177)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:146)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.runInternally(ExecuteAsyncRunnable.java:122)
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "PartnerRelationshipManagement-db" from offering "hana" and plan "hdi-shared": Failed to open connection to the database, because of: failed to get connection to database '3ee945dd-762f-4219-a4d6-b6bde93762ab' (3ee945dd-762f-4219-a4d6-b6bde93762ab.hna1.prod-us10.hanacloud.ondemand.com:443), because of: SAP DBTech JDBC: [1890]: HANA Database instance is stopped
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:96)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:78)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124)
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:59)
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25)
+	... 33 more
+#2026 05 26 13:24:20.146#Z#DEBUG#14103bc2-5906-11f1-be41-eeee0a8b59e3.OPERATION#flowable-async-job-executor-thread-5158#
+Step "Create" finished#

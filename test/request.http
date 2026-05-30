@@ -1,0 +1,8 @@
+@server = http://localhost:4004
+@service = {{server}}/service/prm
+
+
+GET {{service}}/Partners?$expand=address,contacts
+
+#Get specific partner
+//GET {{service}}/Partners?$filter=PartnerNumber eq '1002'

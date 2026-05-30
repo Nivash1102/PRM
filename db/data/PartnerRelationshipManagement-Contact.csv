@@ -1,0 +1,6 @@
+ID,FirstName,LastName,Email,partners_ID,createdAt,createdBy,modifiedAt,modifiedBy
+3001,Baskar,Kumar,baskar.kumar@gmail.com,1001,,,,
+3002,Anil,Panday,anil.panday@gmail.com,1001,,,,
+3003,Nikil,Kamat,Nikil.kamat@gmail.com,1002,,,,
+3004,Abhishek,Bachan,abhi.bachan@gmail.com,1002,,,,
+
