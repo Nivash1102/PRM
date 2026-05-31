@@ -2,7 +2,7 @@
 @service = {{server}}/service/prm
 
 
-GET {{service}}/Partners?$expand=address,contacts
+GET {{service}}/Partners?$expand=address,contacts($expand=userAuths)
 
 #Get specific partner
 //GET {{service}}/Partners?$filter=PartnerNumber eq '1002'

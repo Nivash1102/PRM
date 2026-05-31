@@ -1,0 +1,38 @@
+@server = http://localhost:4004
+@service = {{server}}/service/prm/createPartner
+
+
+POST {{service}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "Name": "Gamma Enterprises",
+  "Status": "Prospect",
+  "address": {
+    "Street": "789 Pine Road",
+    "City": "Houston",
+    "State": "Texas",
+    "PostalCode": "77001",
+    "Country": "USA"
+  },
+  "contacts": [
+    {
+      "FirstName": "Alice",
+      "LastName": "Johnson",
+      "Email": "alice.johnson@gamma.com",
+      "userAuths": [
+        { "UserAuth": "Partnership Basic" },
+        { "UserAuth": "E-signer" }
+      ]
+    },
+    {
+      "FirstName": "Bob",
+      "LastName": "Williams",
+      "Email": "bob.williams@gamma.com",
+      "userAuths": [
+        { "UserAuth": "Partnership User Admin" }
+      ]
+    }
+  ]
+}

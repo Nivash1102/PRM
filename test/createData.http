@@ -4,7 +4,7 @@
 
 
 
-POST http://localhost:4004/service/prm/submitPartner
+POST http://localhost:4004/service/prm/createPartner
 Content-Type: application/json
 Accept: application/json
 

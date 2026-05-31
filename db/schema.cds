@@ -19,6 +19,9 @@ entity Address : managed
     State : String(50);
     PostalCode : String(20);
     Country : String(50);
+    StartDate: Date;
+    EndDate: Date;
+    Active: Boolean;
     partners : Association to one Partners;
 }
 
@@ -28,6 +31,9 @@ entity Contact : managed
     FirstName : String(50);
     LastName : String(50);
     Email : String(100);
+    StartDate: Date;
+    EndDate: Date;
+    Active: Boolean;
     partners : Association to one Partners;
     userAuths : Composition of many UserAuth on userAuths.contact = $self;
 }
@@ -36,6 +42,9 @@ entity UserAuth : managed
 {
     key ID : UUID;
     UserAuth : UserAuthValues;
+    StartDate: Date;
+    EndDate: Date;
+    Active: Boolean;
     contact : Association to one Contact;
 }
 
