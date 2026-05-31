@@ -16,7 +16,18 @@ service prm {
             modifiedBy
         };
 
-    entity contact as
+    entity Address  as
+        projection on my.Address {
+            *
+        }
+        excluding {
+            createdAt,
+            createdBy,
+            modifiedAt,
+            modifiedBy
+        };
+
+    entity contact  as
         projection on my.Contact {
             *
         }
@@ -27,26 +38,35 @@ service prm {
             modifiedBy
         };
 
-    action createPartner(
-        Name     : String,
-        Status   : my.PartnerStatus,    // ← was String, now uses enum type
-        address  : {
-            Street     : String;
-            City       : String;
-            State      : String;
-            PostalCode : String;
-            Country    : String;
-        },
-        contacts : many {
-            FirstName  : String;
-            LastName   : String;
-            Email      : String;
-           
-            userAuths  : many {
-                UserAuth  : my.UserAuthValues;  // ← was String, now uses enum type
-                
-            };
+    entity userAuth as
+        projection on my.UserAuth {
+            *
         }
-    ) returns String;
+        excluding {
+            createdAt,
+            createdBy,
+            modifiedAt,
+            modifiedBy
+        };
+
+    action createPartner(Name: String,
+                         Status: my.PartnerStatus, // ← was String, now uses enum type
+                         address: {
+        Street     : String;
+        City       : String;
+        State      : String;
+        PostalCode : String;
+        Country    : String;
+    },
+                         contacts: many {
+        FirstName  : String;
+        LastName   : String;
+        Email      : String;
+
+        userAuths  : many {
+            UserAuth : my.UserAuthValues; // ← was String, now uses enum type
+
+        };
+    }) returns String;
 
 }
