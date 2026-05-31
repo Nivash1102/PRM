@@ -18,7 +18,7 @@ entity Address : managed
     City : String(50);
     State : String(50);
     PostalCode : String(20);
-    Country : String(20);
+    Country : String(30);
     partners : Association to one Partners;
 }
 
